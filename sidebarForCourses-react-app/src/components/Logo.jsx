@@ -10,9 +10,4 @@ const Logo = () => {
   )
 }
 
-export default Logogit init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/MeghdipRoy/SideBar.git
-git push -u origin main
+export default Logogit
