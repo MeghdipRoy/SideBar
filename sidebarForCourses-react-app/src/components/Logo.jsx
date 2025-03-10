@@ -10,4 +10,4 @@ const Logo = () => {
   )
 }
 
-export default Logogit
+export default Logo
