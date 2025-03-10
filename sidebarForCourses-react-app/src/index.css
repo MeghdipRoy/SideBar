@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+  font-family: "Open Sans", sans-serif;
+  margin: e;
+padding: 0;
+border: none;
+outline: none;
+list-style: none;
+box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar{
+    color : #e6f7e6;
+   
+}
+.logo{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #e6f7e6;
+  padding: 10px;
+}
+.logo-icon{
+  width:40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  background: rgba(28, 17, 41, 0.88);
+}
+
+.menu-bar{
+  height: 90.5vh;
+  
+  margin-top: 2rem ;
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+  font-size: 1rem;
+  position: relative;
+}
+.toggle-theme-btn{
+  position: absolute;
+  bottom: 30px;
+  left:20px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  
+}
+
+
+
+.toggle{
+  margin:-4px;
+  background-color: white;
+  border: none;
+  
+  
+}
+.dark-theme {
+  background-color: #120b1b; 
+  color: #e6f7e6;             
+}
+.dark-theme .ant-layout {
+  background-color: #110a1a; 
+}
+.dark-theme .ant-layout-header,
+.dark-theme .ant-layout-content {
+  background-color:#11091c; 
+  color: #e6f7e6;       
+}
+
+.light-theme {
+  background-color: #f5f5f5;  
+  color: #333;               
+}
+.light-theme .ant-layout {
+  background-color: #f5f5f5;  
+}
+
+.light-theme .ant-layout-header,
+.light-theme .ant-layout-content {
+  background-color: #fff;      
+  color: #333;                
+}
